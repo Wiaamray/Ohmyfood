@@ -1,0 +1,51 @@
+
+footer{
+    margin-top:7%;
+    background-color:$background-color-footer;
+
+.container__footer{
+    display: flex;
+    flex-direction: column;
+   left:0;
+    padding: 1rem;
+    margin: auto;
+    
+
+    .footer__logo{
+        color: #fff;
+        font-family: Shrikhand,"cursive";
+        font-size: 1.6rem;
+        margin: 0 0 1rem;
+    }
+
+    .footer__items{
+   list-style: none;
+   position: relative;
+ 
+
+  .icon__footer{
+    position: absolute;
+    color: white;
+   
+   }
+}
+  
+
+li{
+    list-style: none;
+}
+
+a{ 
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+
+    }
+
+
+
+    
+}

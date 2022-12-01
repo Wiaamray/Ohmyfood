@@ -1,0 +1,71 @@
+
+
+.loader__wrapper{
+
+    width:100vw;
+    height: 100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    background-color: #f6f6f6;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: disappear 200ms;
+    animation-fill-mode: forwards;/*une fois terminer l'animation reste à sa place*/
+    animation-delay: 3s;
+    transform-origin: top;
+
+
+    .ring {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: ring 2s linear infinite;
+    
+    }
+    
+    @keyframes ring {
+  
+    0%{
+    
+    transform : rotate(0deg);
+    box-shadow:1px 5px 2px #9356dc;
+
+    }
+    
+    50%{
+      transform: rotate(180deg);
+      box-shadow: 1px 5px 2px #F066F2;
+    }
+    
+   100%{
+        transform: rotate(360deg);
+      box-shadow: 1px 5px 2px #9356dc;
+     
+    }
+    }
+   
+
+    @keyframes disappear{
+      0%{
+        opacity: 1;
+      }
+
+      100%{
+        opacity: 0;
+        
+      }
+    }
+   
+ 
+    }
+    
+    
+    
+    
+    
+  

@@ -1,0 +1,1 @@
+"prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
