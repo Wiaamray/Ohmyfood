@@ -9,6 +9,12 @@ $background-color-body:#fff;
 $background-color-map:#eaeaea;
 $background-color-main:#f6f6f6;
 
+$--darkgray: darkgray;
+$--dimgray: dimgray;
+$--lightgray: lightgray;
+$--graywhite: #F6F6F6;
+$--lightpurple: #F5EDFF;
+$--green: #2FAF94;
 
 
 /*texte*/
@@ -21,3 +27,27 @@ $font-weights :(
     "bold"   :900
 );
 
+
+/*
+*       Variables pour média queries
+*/
+$mobile: 768px;
+$tablette: 992px;
+$desktop: 1200px;
+$max-width: 1500px;
+
+
+
+
+
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+.accessibility-label {
+	position:absolute;
+	left:-999px;
+}
