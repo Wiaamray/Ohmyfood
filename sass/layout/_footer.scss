@@ -1,57 +1,121 @@
+
+
 footer
 {
-	background-color:$background-color-footer;
 	min-width: 100%;
-	margin-top: 0%;
-}
-
-.container__footer
-{
 	background-color:$background-color-footer;
-	display: flex;
-	flex-direction: column;
-	left:0;
-	padding: 1rem;
-	margin-top: -8%;
-}
-
-.footer__logo
-{
-	color: #fff;
-	font-family: Shrikhand,"cursive";
-	font-size: 1.6rem;
-	margin: 0 0 1rem;
-}
-
-.footer__items
-{
-	list-style: none;
-	position: relative;
-	padding-left: 2%;
-	.icon__footer
+	
+	.container__footer
 	{
-		position: absolute;
-		color: white;
-		margin: 1% 0 0 1%;
+		background-color: $background-color-footer;
+		display: flex;
+		flex-direction: column;
 		left:0;
+		padding: 1rem;
+		margin: auto;
 	}
 
-	.item__align
+	.footer__logo
 	{
-		/*padding-left:8%;
-		*/
+		color: #fff;
+		font-family: Shrikhand,"cursive";
+		font-size: 1.6rem;
+		margin: 0 0 1rem;
 	}
 
+	.footer__items
+	{
+		list-style: none;
+		position: relative;
+		padding-left: 2px;
+		line-height: 33px;
+		.icon__footer
+		{
+			position: absolute;
+			color: white;
+			margin: 8px 6px 0 1px;
+			left:0;
+		}
+
+		.item__align
+		{
+			padding-left:27px;
+		}
+	}
+
+	li
+	{
+		list-style: none;
+	}
+
+	a
+	{
+		color: white;
+		text-decoration: none;
+		display: block;
+	}
 }
 
-li
-{
-	list-style: none;
-}
 
-a
-{
-	color: white;
-	text-decoration: none;
-	display: block;
-}
+@media screen and (max-width: $mobile){
+	footer
+	{
+		background-color:$background-color-footer;
+		min-width: 100%;
+		margin-top: 0%;
+	}
+	
+	.container__footer
+	{
+		background-color:$background-color-footer;
+		display: flex;
+		flex-direction: column;
+		left:0;
+		padding: 1rem;
+		margin-top: -8%;
+	}
+	
+	.footer__logo
+	{
+		color: #fff;
+		font-family: Shrikhand,"cursive";
+		font-size: 1.6rem;
+		margin: 0 0 1rem;
+	}
+	
+	.footer__items
+	{
+		list-style: none;
+		position: relative;
+		padding-left: 2%;
+		.icon__footer
+		{
+			position: absolute;
+			color: white;
+			margin: 1% 0 0 1%;
+			left:0;
+		}
+	
+		.item__align
+		{
+			/*padding-left:8%;
+			*/
+		}
+	
+	}
+	
+	li
+	{
+		list-style: none;
+	}
+	
+	a
+	{
+		color: white;
+		text-decoration: none;
+		display: block;
+	}
+	
+			}
+			
+	

@@ -23,10 +23,10 @@
 @mixin heart{
     
     .empty-heart {
-        opacity: 1;
+        opacity: 1;  /*visible*/
         font-size:35px;
         color: black;
-        transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;/* spécifie un effet de transition avec un début et une fin lents */
         
 
         &:hover{
@@ -37,34 +37,35 @@
     }
     
     .full-heart {
-    opacity: 0;
+    opacity: 0;  /*invisible*/
     font-size: 35px;
     position :absolute;
     background: linear-gradient(283deg, #ff79da 0%, #9356dc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: 1.5s ease-out;
+    -webkit-background-clip: text; /* (-webkit prefix pour compatibilité) 
+    mettre le background sur le text */
+    -webkit-text-fill-color: transparent; /*couleur transparent*/
+    transition: 1.5s ease-out; /* spécifie un effet de transition avec une fin lente*/
 
     &:hover{
-        opacity: 1;
+        opacity: 1; /*visible*/
         cursor: pointer;
         top:-1%;
     }
     } 
     }
       
-        @mixin nowrap-ellipsis {                            // Mixin pour le décalage en arrière du texte des choix de menu pour l'animation
-            white-space: nowrap;
-            text-overflow: ellipsis;
+        @mixin nowrap-ellipsis {  
+            white-space: nowrap;/*les passages à la ligne automatiques sont supprimés.*/
+            text-overflow: ellipsis;/*quand le texte dépasse on rajoute ...*/
         }
         
         @mixin overhidden() {
-            overflow: hidden;
+            overflow: hidden;/* on cache ce qui dépasse*/
             @include nowrap-ellipsis;
         }
         
         
-        @mixin choix-menu {                                 // création d'un choix de menu
+        @mixin choix-menu {   // création d'un choix de menu
             .menus {
                 border: 0;
                 padding: 0;
@@ -123,6 +124,7 @@
         
         @mixin article-menu {
             .article-menu {
+
                 display: flex;
                 background-color: white;
                 width: 100%;
@@ -153,7 +155,6 @@
                     padding: 0.5rem 0 0.5rem 1rem;
                     &:hover {
                         cursor: pointer;
-                    
                     }
                 }
                 .prix {
@@ -186,19 +187,7 @@
             }
         }
         
-        // Durée apparition animation
-        #article_1, #article_4, #article_7 {                 // 1ère lignes      
-            animation: apparition 600ms ease-in;
-        }
-        #article_2, #article_5, #article_8 {                // 2ème lignes
-            animation: apparition 1.2s ease-in;
-        }
-        #article_3, #article_6, #article_9 {                // 3ème lignes
-            animation: apparition 1.8s ease-in;
-        }
-        #article_10 {                                       // 4ème ligne pour le restaurant qui comporte 4 choix dans un menu
-            animation: apparition 2.4s ease-in;
-        }
+      
         
        
         @mixin flex-center {
@@ -218,7 +207,23 @@
         }
         
         // animation des menus
+
+  // Durée apparition animation
+  #article_1, #article_4, #article_7 {                 // 1ère lignes      
+    animation: apparition 600ms ease-in;
+}
+#article_2, #article_5, #article_8 {                // 2ème lignes
+    animation: apparition 1.2s ease-in;
+}
+#article_3, #article_6, #article_9 {                // 3ème lignes
+    animation: apparition 1.8s ease-in;/*spécifie un effet de transition avec un démarrage lent*/
+}
+#article_10 {                                       // 4ème ligne pour le restaurant qui comporte 4 choix dans un menu
+    animation: apparition 2.4s ease-in;
+}
+
         @keyframes apparition {
+
             0% {
                 opacity: 0;
                 transform: translateY(20px);
@@ -229,22 +234,66 @@
             }
         }
 
+ @mixin footer-mobile {
+            footer
+{
+	background-color:$background-color-footer;
+	min-width: 100%;
+	margin-top: 0%;
+}
 
+.container__footer
+{
+	background-color:$background-color-footer;
+	display: flex;
+	flex-direction: column;
+	left:0;
+	padding: 1rem;
+	margin-top: -8%;
+}
 
+.footer__logo
+{
+	color: #fff;
+	font-family: Shrikhand,"cursive";
+	font-size: 1.6rem;
+	margin: 0 0 1rem;
+}
 
+.footer__items
+{
+	list-style: none;
+	position: relative;
+	padding-left: 2%;
+	.icon__footer
+	{
+		position: absolute;
+		color: white;
+		margin: 1% 0 0 1%;
+		left:0;
+	}
 
+	.item__align
+    
+	{
+		/*padding-left:8%;
+		*/
+	}
 
-        @mixin footer-mobile {
-            footer {
-                background-color: $background-color-footer;
-                padding-left: 0.5rem;
-                h1, .footer {
-                    display: block;
-                }
-                .footer .fa-solid.fa-utensils {
-                    margin-right: 6px;
-                }
-            }
+}
+
+li
+{
+	list-style: none;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
         }
         
 

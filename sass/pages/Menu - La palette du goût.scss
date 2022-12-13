@@ -118,44 +118,7 @@ body
 		}
 	}
 
-	footer
-	{
-		background-color: $background-color-footer;
-		color: white;
-		h1
-		{
-			width: 100%;
-			font-family: 'Shrikhand', cursive;
-			font-weight: normal;
-			font-size: 24px;
-			margin-bottom: 1%;
-		}
-
-		p
-		{
-			margin-bottom: 1%;
-		}
-
-		a
-		{
-			text-decoration: none;
-			color: white;
-			align-items: center;
-		}
-
-		i
-		{
-			padding-right: 5px;
-		}
-
-		.footer
-		{
-			display: flex;
-			flex-direction: column;
-			padding: 1rem 0 1rem 1.5rem;
-		}
-	}
-}
+	
 
 /**MEDIA QUERIES*/
 @media (max-width: $tablette)
@@ -221,9 +184,10 @@ body
 				}
 			}
 
-			@include footer-mobile;
+			
 		}
-	}
+		
+	}@include footer-mobile;
 }
 
 @media (max-width: $desktop)
@@ -242,6 +206,6 @@ body
 				}
 			}
 		}
-
+		
 	}
-}
+}}
