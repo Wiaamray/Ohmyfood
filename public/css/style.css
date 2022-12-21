@@ -461,7 +461,7 @@ mettre le background sur le text */
     border-radius: 100%;
     font-size: 14px;
     font-weight: 400;
-    margin: 0px 15px 0px -33pxpx;
+    margin: 0px 15px 0px -33px;
   }
   .container__filters .filter__step h3 {
     font-size: 17px;
