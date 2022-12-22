@@ -4,12 +4,13 @@
 
 Au sein du Projet n°3 du parcours développeur web chez OpenClassrooms j'ai créé un site web pour la jeune startup Ohmyfood qui voudrait s'imposer sur le marché de la restauration,  son concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d'attente dans les restaurants.
 l'objectif étant de développer un site 100% mobile en utilisant l'approche mobile first qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.
-<a href="https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P3+CSS+animations/DW+P3+-+Brief+creatif+-+Ohmyfood!.pdf">Brief créatif</a>que vous pouvez consulter nous sont fournis détaillant les attentes du client.
+<br/>
+Voici le <a href="https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P3+CSS+animations/DW+P3+-+Brief+creatif+-+Ohmyfood!.pdf">brief créatif</a>que vous pouvez consulter nous sont fournis détaillant les attentes du client.
 
 <h2>Technologies</h2>
 
     Le développement devra se faire en CSS, sans JavaScript
-    Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un plus
+    Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un plus.
     Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
 
 <h2>Compatibilité</h2>
