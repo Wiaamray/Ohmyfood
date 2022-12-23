@@ -6,6 +6,7 @@ Au sein du Projet n°3 du parcours développeur web chez OpenClassrooms j'ai cr�
 l'objectif étant de développer un site 100% mobile en utilisant l'approche mobile first qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.
 <br/>
 Voici le <a href="https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P3+CSS+animations/DW+P3+-+Brief+creatif+-+Ohmyfood!.pdf">brief créatif</a> que vous pouvez consulter nous sont fournis détaillant les attentes du client.
+ <img src="public/images/Accueil.png">
 
 <h2>Technologies</h2>
 
@@ -18,16 +19,16 @@ Voici le <a href="https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projec
 La cible étant les personnes connectées et pressées, le site sera développé en utilisant l’approche mobile-first. Pour cette raison, seules des maquettes mobiles seront réalisées. Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant pas prioritaires, leur mise en page est libre
 L’ensemble du site devra être responsive sur mobile, tablette et desktop.
 Les pages devront passer la validation W3C en HTML et CSS sans erreur.
-Lien vers la validité CSS [ ]
+Lien vers la validité CSS [https://jigsaw.w3.org/css-validator/validator]
 Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome et Firefox.
 
 <h2>Contenu des pages</h2>
 
 <h3>Page d'accueil<h3>
 
-     Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu.
-    Une courte présentation de l’entreprise.
-    Une section contenant les 4 menus sous forme cartes. Au clic sur la carte, l’utilisateur est redirigé vers la page du menu.
+Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu.
+Une courte présentation de l’entreprise.
+Une section contenant les 4 menus sous forme cartes. Au clic sur la carte, l’utilisateur est redirigé vers la page du menu.
 
 <h3>Pages de menu</h3>
 
@@ -48,8 +49,8 @@ Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
 
 <h3>Boutons</h3>
 
-    Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible.
-    À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un bouton "J’aime" en forme de cœur est présent sur la maquette. Au clic, il devra se remplir progressivement. Pour cette première version, l’effet peut être apparaître au survol sur desktop au lieu du clic. 
+Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible.
+ À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un bouton "J’aime" en forme de cœur est présent sur la maquette. Au clic, il devra se remplir progressivement. Pour cette première version, l’effet peut être apparaître au survol sur desktop au lieu du clic. 
 
 <h3>Page d’accueil</h3>
 
@@ -70,5 +71,12 @@ Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
     Les couleurs sont : primaire #9356DC - secondaire #FF79DA - tertiaire #99E2D0
 
 
+<h3>Installation</h3>
+
+Installation de Sass sur Windows 
+
+Capture d'écran des boutons de téléchargement de NodeJS
+
+Installation Sass avec la commande npm -g install sass.
 
 
