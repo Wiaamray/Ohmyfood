@@ -73,9 +73,7 @@ Au survol, la couleur de fond des boutons principaux devra légèrement s’écl
 
 <h3>Installation</h3>
 
-Installation de Sass sur Windows 
-
-Capture d'écran des boutons de téléchargement de NodeJS
+Installation de Sass sur Windows
 
 Installation Sass avec la commande npm -g install sass.
 
